@@ -12,6 +12,7 @@ $start_or_not = Read-Host "Enter do you want to start the programm nowL Y/N: "
 
 switch ($start_or_not.ToLower()) {
     'y' {
+        Set-Location (Get-Location)
         Set-Location "..\src\"
         try {
             python main.py
