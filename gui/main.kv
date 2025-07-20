@@ -1,0 +1,23 @@
+<Backend>
+	exp_1: exp_1
+	exp_2: exp_2
+	GridLayout:
+        cols: 1
+	    size: root.width, root.height
+		GridLayout:
+		    cols: 2
+			Label:
+				text: "Number 1\matrix\whole expression"
+			TextInput:
+				multiline: True
+				id: exp_1
+            Label:
+                text: "Number 2\matrix"
+			TextInput:
+				multiline: True
+				id: exp_2
+        Button:
+            text: "see ouput"
+            font_size: 32
+
+
